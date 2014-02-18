@@ -7,17 +7,14 @@ paginate:         10
 pygments:         false
 permalink:        /:year/:month/:title.html
 markdown:         redcarpet
-rdiscount:
-  extensions:     [smart]
 
 redcarpet:
   extensions: [tables, fenced_code_blocks]
 
-# Theme specific settings
+# Site plugin
 google_analytics: UA-5266256-5
 disqus_shortname: chchwy
 
 owner:
   name:           Matt (chchwy)
   avatar:         'https://secure.gravatar.com/avatar/49a872f505cf4d3d0435f4f96c8dcd64?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png'
-  bio:            "Hi, I'm Matt, aka chchwy. I came, I saw, I coded."
