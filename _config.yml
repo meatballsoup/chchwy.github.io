@@ -11,7 +11,7 @@ markdown:         redcarpet
 redcarpet:
   extensions: [tables, fenced_code_blocks]
 
-# Site plugin
+# Site
 google_analytics: UA-5266256-5
 disqus_shortname: chchwy
 

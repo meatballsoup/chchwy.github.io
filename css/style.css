@@ -1,0 +1,79 @@
+
+/* ----- basic style ----- */
+* { box-sizing: border-box; }
+
+body
+{
+    background-color: #FAF9F0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* ----- header ----- */
+#site-header
+{
+    text-align: center;
+}
+
+#site-header h1
+{
+    font-size: 3.2em;
+}
+#site-header h1 a:hover { text-decoration: none; }
+
+/* ----- nav -----*/
+#site-nav
+{
+    margin: 2em auto;
+    padding: 1em;
+    border-top: dashed #ccc 1px;
+    border-bottom: dashed #ccc 1px;
+}
+
+#site-nav a
+{
+    display: inline-block;
+    width: 4em;
+}
+
+/* ----- main ----- */
+
+#site-main
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ----- footer ----- */
+
+
+/* ----- index.html ----- */
+
+.index-post h3
+{
+    font-weight: normal;
+}
+
+.index-post time
+{
+    display: inline-block;
+    width: 7em;
+    float: left;
+}
+
+/* ----- posts ----- */
+.post-container
+{
+    border: solid 1px #ddd;
+    padding: 3em 5em;
+    background-color: #FAF9F0;
+    box-shadow: 0 7px 4px #999;
+}

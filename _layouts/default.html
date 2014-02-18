@@ -10,27 +10,24 @@
 
   <title>調和的靈感</title>
 
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
-  <link href="/css/prettify.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css" />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" >
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/prettify.css" />
 
   <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.title }}" />
 
 </head>
 <body>
-  <header class="site-header">
-      <h1 class="site-title"><a href="/index.html">調和的靈感</a></h1>
-      {% include nav.html %}
+  <header id="site-header">
+    <h1 class="site-title"><a href="/index.html">調和的靈感</a></h1>
+    {% include nav.html %}
   </header>
 
-  <div class="container site-container">
+  <div id="site-main">
+    <div class="pure-g-r">
+      <div class="pure-u-1">
       {{ content }}
-  </div>
-
-  <div class="container" style="padding:0;">
-    <div class="footer" style="border-top: solid 1px #aaa; padding:20px 0;">
-      <div class="pull-right">
-      Powered by
-      <a href="http://jekyllrb.com/">Jekyll</a> & Github Pages.
       </div>
     </div>
   </div>
