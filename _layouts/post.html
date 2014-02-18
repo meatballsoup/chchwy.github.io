@@ -4,7 +4,7 @@ published: true
 ---
 
 <article class="post-container">
-  <time>{{ page.date | date_to_string }}</time>
+  <time class="muted">{{ page.date | date_to_string }}</time>
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-content">
     {{ content }}
@@ -14,5 +14,7 @@ published: true
     Tags: <span class="post-tag">{{ page.tags }}</span>
   </div>
 </article>
+
+<br>
 
 {% include disqus.html %}

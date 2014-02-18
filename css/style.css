@@ -75,5 +75,12 @@ a:hover
     border: solid 1px #ddd;
     padding: 3em 5em;
     background-color: #FAF9F0;
-    box-shadow: 0 7px 4px #999;
+    box-shadow: 0 1px 10px #999;
+}
+
+/* ----- misc ----- */
+
+.muted
+{
+    color: #aaa;
 }
