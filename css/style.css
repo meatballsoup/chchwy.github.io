@@ -104,12 +104,17 @@ a:hover
 }
 
 /* ----- posts ----- */
-.post-container
+.post-wrapper
 {
 }
 
+.post-content
+{
+    line-height: 1.6em;
+}
+
 /* ----- archives ----- */
-.archive-year
+.page-spliter
 {
     margin: 1em -5em;
     padding: 0.3em 5em;
