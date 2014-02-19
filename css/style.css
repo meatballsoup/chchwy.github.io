@@ -65,6 +65,7 @@ a:hover
 #site-nav a
 {
     display: block;
+    padding-top: 0.8em;
 }
 
 /* ----- main ----- */
