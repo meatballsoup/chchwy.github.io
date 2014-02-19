@@ -2,23 +2,25 @@
 layout: default
 ---
 
-<ul class="post-list" style="">
+<div class="post-list">
 
   {% for post in site.posts %}
 
-    {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+    {% capture y %} {{post.date | date:"%Y"}} {% endcapture %}
     {% if year != y %}
       {% assign year = y %}
-      <li class="listing-seperator" style="list-style-type:none;">- {{ y }} -</li>
+      <div class="archive-year">
+        - {{ year }} -
+      </div>
     {% endif %}
 
-    <li style="line-height: 2em;">
-      <time>
+    <div style="line-height: 2em;">
+      <time style="font-family: Consolas, Menlo, monosapce;">
           {{ post.date | date: "%b %d" }}
       </time>
-      <a href="{{ post.url }}" style="text-decoration: none; font-family: 'PT Serif' '微軟正黑體' serif;">
+      <a href="{{ post.url }}">
         » {{ post.title }}
       </a>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>

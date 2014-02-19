@@ -28,5 +28,5 @@ Hi，我是 Matt (chchwy)，軟體工程師。歡迎來到我BLOG，這裡記錄
 ## FAQ
 
 - 最愛的書: 《別鬧了，費曼先生》
-- 最愛的遊戲: Age of Empire II (世紀帝國二) 以及《X-COM: 深海出擊》
--
+- 最愛的遊戲: Age of Empire II (世紀帝國二) 以及 《X-COM: 深海出擊》
+- 敬佩的人: Tim Duncan

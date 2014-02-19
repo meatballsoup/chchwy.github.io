@@ -5,11 +5,10 @@
 body
 {
     color: #516066;
-    background-color: #F5F5DC;
-    font-family: OpenSans, sans-serif;
+    background-color: #FDFFFA;
 }
 
-h1, h2, h3 { font-family: '微軟正黑體', 'Microsoft YaHei', }
+h1, h2, h3 { font-family: '微軟正黑體', 'Microsoft YaHei', sans-serif; }
 
 a
 {
@@ -47,7 +46,11 @@ a:hover
     font-family: '微軟正黑體', 'Microsoft YaHei';
     font-weight: normal;
 }
-#site-left h1 a { font-weight: normal; }
+#site-left h1 a
+{
+    font-weight: normal;
+    color: #516066;
+}
 #site-left h1 a:hover { text-decoration: none; }
 
 /* ----- nav -----*/
@@ -70,6 +73,13 @@ a:hover
 {
 }
 
+.page-shadow
+{
+    /* border: solid 1px #ddd; */
+    padding: 3em 5em;
+    margin: 0 1em;
+    box-shadow: 0 1px 10px #999;
+}
 /* ----- footer ----- */
 
 
@@ -77,9 +87,7 @@ a:hover
 
 #site-index
 {
-    border: solid 1px #ddd;
-    padding: 3em 5em;
-    box-shadow: 0 1px 10px #999;
+
 }
 
 .index-post h3
@@ -92,14 +100,22 @@ a:hover
     display: inline-block;
     width: 7em;
     float: left;
+    font-family: Consolas, Menlo, monospace;
 }
 
 /* ----- posts ----- */
 .post-container
 {
-    border: solid 1px #ddd;
-    padding: 3em 5em;
-    box-shadow: 0 1px 10px #999;
+}
+
+/* ----- archives ----- */
+.archive-year
+{
+    margin: 1em -5em;
+    padding: 0.3em 5em;
+    background-color: #555;
+    color: #ccc;
+    box-shadow: 0px 0px 10px #aaa;
 }
 
 /* ----- misc ----- */
@@ -107,4 +123,10 @@ a:hover
 .muted
 {
     color: #aaa;
+}
+
+.copyright
+{
+    font-size: 11px;
+    margin: 1em 1em;
 }

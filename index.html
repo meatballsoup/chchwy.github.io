@@ -16,12 +16,12 @@ published: true
   <hr />
 
   {% for post in site.posts limit: 8 offset: 1 %}
-    <article class="index-post">
-      <time>{{ post.date | date_to_string }}</time>
-      <h3>
+    <ul class="index-post">
+      <li>
+        <time>{{ post.date | date_to_string }}</time>
         <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
-    </article>
+      </li>
+    </ul>
   {% endfor %}
 
 </div>
