@@ -19,18 +19,15 @@
 
 </head>
 <body>
-  <header id="site-header">
+<div id="site-wrapper" class="pure-g-r">
+  <header id="site-left" class="pure-u-1-5">
     <h1 class="site-title"><a href="/index.html">調和的靈感</a></h1>
     {% include nav.html %}
   </header>
-
-  <div id="site-main">
-    <div class="pure-g-r">
-      <div class="pure-u-1">
-      {{ content }}
-      </div>
-    </div>
+  <div id="site-main" class="pure-u-4-5">
+    {{ content }}
   </div>
+</div>
 
   {% include analytics.html %}
 
