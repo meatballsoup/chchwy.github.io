@@ -135,3 +135,8 @@ a:hover
     font-size: 11px;
     margin: 1em 1em;
 }
+
+.underline
+{
+    border-bottom: solid 1px #ccc;
+}
