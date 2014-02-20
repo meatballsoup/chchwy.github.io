@@ -5,9 +5,21 @@ published: true
 
 <div id="site-index">
 
-<h2 class="underline">最新文章</h2>
+{% assign top_post = site.categories.blog[0] %}
+<article class="index-top-post">
+  <time class="muted">{{ top_post.date | date_to_long_string }}</time>
+  <a href="{{ top_post.url }}">
+    <h2 class="underline"> {{ top_post.title }}</h1>
+  </a>
+  {{ top_post.content | strip_html | truncate: 120 }}
+  <a href="{{ top_post.url }}">(繼續閱讀)</a>
+</article>
 
-{% for post in site.categories.blog limit: 8 offset: 1 %}
+<br><br>
+
+<h2 class="underline">最近文章</h2>
+
+{% for post in site.categories.blog limit: 8 %}
   <ul class="index-post">
     <li>
       <time>{{ post.date | date_to_string }}</time>
