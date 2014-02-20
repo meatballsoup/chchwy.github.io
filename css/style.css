@@ -123,6 +123,13 @@ a:hover
     line-height: 1.6em;
 }
 
+.post-content img
+{
+    padding: 5px;
+    margin: 1em;
+    box-shadow: 0px 0px 5px #999;
+}
+
 /* ----- archives ----- */
 .page-spliter
 {
@@ -149,4 +156,9 @@ a:hover
 .underline
 {
     border-bottom: solid 1px #ccc;
+}
+
+.left
+{
+    float: left;
 }
